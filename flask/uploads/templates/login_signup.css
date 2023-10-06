@@ -1,0 +1,189 @@
+       /* Google Fonts - Poppins */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        @import url('https://fonts.cdnfonts.com/css/akira-expanded');
+
+                * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("https://raw.githubusercontent.com/IshitaSingh2003/SmartInternzAI_Submission_IshitaSingh/main/Guided%20Project/Flask/templates/background_image.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-color: #0d47a1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar ul .navi {
+            padding-left: 800px;
+        }
+
+        .navbar ul li h3 {
+            color: #fff;
+            padding-left: 40px;
+            padding-top: 10px;
+            font-family: 'Montserrat';
+            font-size: 24px; /* Adjust font-size */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow */
+        }
+
+        .navbar ul li {
+            float: left;
+        }
+
+        .navbar li a {
+            font-family: 'Montserrat';
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .container .forms .form {
+            max-width: 430px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 6px;
+            background: #FFF;
+            opacity: 0.9; /* Reduce opacity */
+        }
+
+        header {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            text-align: center;
+            font-family: 'Montserrat';
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .container .forms .form .field {
+            margin-top: 20px;
+        }
+
+        .container .forms .form .field input,
+        .container .forms .form .field button {
+            border-radius: 6px;
+        }
+
+        .container .forms .form .field input {
+            border: 1px solid #CACACA;
+            font-family: 'Montserrat';
+            outline: none;
+            padding: 0 15px;
+        }
+
+        .container .forms .form .field input:focus {
+            border-bottom-width: 2px;
+        }
+
+        .container .forms .form .field button {
+            color: #fff;
+            font-family: 'Montserrat';
+            background-color: #fff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .container .forms .form .field button:hover {
+            background-color: #fff;
+        }
+
+        .container .forms .form .form-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .container .forms .form .form-link span,
+        .container .forms .form .form-link a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .container .forms .form a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .container .forms .form-content a:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            position: relative;
+            height: 1px;
+            width: 100%;
+            margin: 36px 0;
+            background-color: #fff;
+        }
+
+        .line::before {
+            content: 'Or';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            color: #fff;
+            padding: 0 15px;
+        }
+
+          button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            border: 2px solid #fff;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+            transition: box-shadow 0.3s;
+        }
+
+        button a {
+            color: #fff; /* Set text color to white */
+            text-decoration: none; /* Remove underlines */
+        }
+
+        button:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+        }
+   .content-box {
+            background: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+            color: white; /* White text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add glow to text */
+        }
+
+    </style>

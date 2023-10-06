@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("https://raw.githubusercontent.com/IshitaSingh2003/SmartInternzAI_Submission_IshitaSingh/main/Guided%20Project/Flask/templates/background_image.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-color: #0d47a1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+ 
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: right;
+        padding: 20px 0; /* Increase the padding to make it broader */
+    }
+ 
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            font-family: 'Montserrat';
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: normal; /* Remove bold from navbar items */
+        }
+
+        .navbar a:hover {
+            color: #a4c2f4; /* Baby light blue color on hover */
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(173, 216, 230, 0.8); /* Light blue text glow */
+            margin-bottom: 15px; /* Increased distance between h1 and p */
+        }
+
+           p {
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(173, 216, 230, 0.8); /* Light blue text glow */
+        margin-bottom: 20px; /* Increased space between p and button */
+    }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            border: 2px solid #fff;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+            transition: box-shadow 0.3s;
+        }
+
+        button a {
+            color: #fff; /* Set text color to white */
+            text-decoration: none; /* Remove underlines */
+        }
+
+        button:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="file:///C:/Users/rmega/Downloads/Project/flask/uploads/templates/index.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <h1>REVOLUTIONIZING PARKING</h1>
+    <p><i>AI enable car parking using OpenCV</i></p>
+    <p>
+        <button class="left">
+            <a href="/login.html">GET STARTED</a>
+        </button>
+    </p>
+</body>
+</html>

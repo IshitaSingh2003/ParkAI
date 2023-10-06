@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login and Signup Form</title>
+    <style>
+        /* Google Fonts - Poppins */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://raw.githubusercontent.com/IshitaSingh2003/SmartInternzAI_Submission_IshitaSingh/main/Guided%20Project/Flask/templates/background_image.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        header {
+            font-size: 28px;
+            font-weight: 500;
+            color: white; /* White header text */
+            font-family: 'Montserrat'; /* Use Montserrat font */
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add glow to text */
+ ; /* Increased distance between header and content */
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding-left: 800px;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar ul li {
+            float: left;
+        }
+
+        .navbar li a {
+            font-family: 'Montserrat';
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        img {
+            float: right;
+            margin: 0px 70px 15px 15px;
+            height: 300px;
+            width: 400px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add glow to the image */
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+            color: white; /* White text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add glow to text */
+        }
+
+        h2 {
+            padding-left: 50px;
+        }
+
+        p {
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="/index.html">Home</a></li>
+            <li><a href="/aboutus.html">About us</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/signup.html">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <header>ABOUT</header>
+
+        <div class="content-box">
+            <img src="https://github.com/IshitaSingh2003/SmartInternzAI_Submission_IshitaSingh/blob/main/Guided%20Project/Flask/templates/download.jpg?raw=true">
+            <p>
+
+                Picture this scenario: you're driving to a popular shopping mall during peak hours. As you approach your destination, you notice the parking lot is jam-packed, with cars circling tirelessly in search of an elusive empty spot.
+                You join the queue of frustrated drivers, hoping for a stroke of luck that will lead you to an available space. However, as time ticks by, you become acutely aware of the overcrowded situation. Finding a parking spot is becoming increasingly arduous, and a sense of anxiety creeps in. The fear of running late for an appointment or missing out on an exciting shopping experience hangs heavy in the air.
+                Enter AI-enabled car parking using OpenCV, a cutting-edge computer vision-based project revolutionizing the parking landscape. Its goal is to automate the parking process, transforming it into a hassle-free experience. This innovative project focuses on developing an intelligent system that can swiftly detect and identify vacant parking spaces, providing you with real-time information on the number of available spots. To achieve this, the system relies on a camera and leverages the power of OpenCV (Open Source Computer Vision) library to capture live video footage of the bustling parking lot.
+                By harnessing the capabilities of AI and computer vision, this project aims to alleviate the stress and uncertainty associated with parking in congested areas. It empowers drivers with the knowledge of available parking spots, streamlining the entire process. Say goodbye to aimlessly circling and hello to efficient parking management, thanks to AI-enabled car parking using OpenCV.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
