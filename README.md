@@ -23,10 +23,11 @@ To run the AI-enabled Car Parking system, simply execute the main script:
 ```bash
 python app.py
 ```
+## ✔️ Implementation
 
+https://github.com/IshitaSingh2003/ParkAI/assets/80634214/962feee2-2106-4caa-b10a-7f01bf828579
 
 Enjoy a hassle-free parking experience with real-time updates on available parking spaces! 
-
 
 🤝 Contributing
 We welcome contributions from the community! Whether it's bug fixes, feature enhancements, or documentation improvements, your contributions are highly appreciated. Feel free to open issues and submit pull requests.
